@@ -1,6 +1,6 @@
-Blackout watches
+# Blackout watches Arduino ESP32 TTGO T-Display
 
-About device
+## About device
 
 Due to rolling emergency power outages in Ukraine, it became necessary to create a clock that counts the time from the last power state change and creates a forecast for turning on / off the electricity.
 The electricity supply company provided the following schedule (which is not adhered to): 5 hours with electricity, 4 without.
@@ -16,8 +16,7 @@ The electricity supply company provided the following schedule (which is not adh
 
 ![](assets/full.jpg) ![](assets/green.jpg) ![](assets/red.jpg)
 
-
-Assembly
+## Assembly
 
 The clock is based on the ESP32 TTGO T-Display module https://github.com/Xinyuan-LilyGO/TTGO-T-Display and uses a minimum of details:
 
