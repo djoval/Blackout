@@ -26,3 +26,7 @@ The clock is based on the ESP32 TTGO T-Display module https://github.com/Xinyuan
 
 Solder the battery to the power connector wires, solder the Buzzer to G and pin 21. The case is the standard package of the ESP32 TTGO T-Display module.
 Development was carried out using Visual studio code https://code.visualstudio.com/ and Platform IO plugin https://platformio.org/
+
+## Compilation
+
+Rename the file secrets.h.example to secrets.h change the settings for connecting to the router in the file.

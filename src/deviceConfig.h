@@ -1,3 +1,7 @@
+#ifndef __DEVICECONFIG_H__
+#define __DEVICECONFIG_H__
+
+#include "secrets.h"
 ////////////////////////////////////////// Physical Device settings
 #define TFT_BLACK 0x0000 // black
 // TTGO T-Display pins
@@ -19,8 +23,6 @@
 #define BUZZER_PIN 21
 #define PWM_CHANAL 1
 
-#define WIFI_SSID "MyRouter"
-#define WIFI_PASSWORD "MyRouter.Hi"
 #define SERIAL_SPEED 115200
 
 ////////////////////////////////////////// Logicacal Device settings
@@ -33,3 +35,7 @@
 #define POWER_ON_HOURS 5
 #define BEEP_BEFORE_POWER_OFF_MIN 15
 //////////////////////////////////////////
+
+#endif // __DEVICECONFIG_H__
+
+
